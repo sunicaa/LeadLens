@@ -697,45 +697,44 @@ iframe[name="ya-form-69d7f2a584227c1216e80778"] {
   margin-bottom: 4px;
 }
 
-/* планшет */
-@media (max-width: 900px) {
-  .lead-form-block {
-    margin-top: 20px;
-    padding: 12px;
-    border-radius: 20px;
-  }
-
-  .lead-form-shell,
-  .lead-form-iframe,
-  iframe[name="ya-form-69d7f2a584227c1216e80778"] {
-    border-radius: 20px !important;
-  }
-
-  .lead-form-iframe,
-  iframe[name="ya-form-69d7f2a584227c1216e80778"] {
-    height: 300px !important;
-    min-height: 300px !important;
-    max-height: 300px !important;
-  }
-}
-
-/* мобилка */
 @media (max-width: 640px) {
+  #app {
+    padding: 12px 10px 20px;
+  }
+
+  .hero-card,
   .hero-card-with-form {
-    padding: 18px;
+    padding: 16px;
+    border-radius: 22px;
+    min-height: auto;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 0.98;
+    margin-bottom: 12px;
   }
 
   .hero-text {
-    font-size: 15px;
-    line-height: 1.55;
-    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    max-width: 100%;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .mini-card {
     padding: 14px;
+    border-radius: 16px;
   }
 
   .cta-row {
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
   }
 
@@ -750,34 +749,40 @@ iframe[name="ya-form-69d7f2a584227c1216e80778"] {
   }
 
   .lead-form-intro {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .lead-form-badge {
-    padding: 6px 10px;
     font-size: 10px;
+    padding: 6px 10px;
+    margin-bottom: 8px;
   }
 
   .lead-form-intro h3 {
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.15;
     margin-bottom: 6px;
   }
 
   .lead-form-intro p {
-    font-size: 13px;
-    line-height: 1.45;
+    font-size: 12px;
+    line-height: 1.4;
   }
 
   .lead-form-shell {
-    border-radius: 16px;
+    border-radius: 18px;
+    overflow: hidden;
   }
 
   .lead-form-iframe,
   iframe[name="ya-form-69d7f2a584227c1216e80778"] {
-    height: 340px !important;
-    min-height: 340px !important;
-    max-height: 340px !important;
-    border-radius: 16px !important;
+    width: 100% !important;
+    height: 520px !important;
+    min-height: 520px !important;
+    max-height: 520px !important;
+    border-radius: 18px !important;
+    display: block;
   }
 }
+
+

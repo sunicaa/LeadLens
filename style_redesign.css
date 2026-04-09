@@ -731,7 +731,7 @@ textarea {
   }
 
   .lead-form-iframe {
-    min-height: 300px;
-    border-radius: 12px;
+    min-height: 100px;
+    border-radius: 17px;
   }
 }

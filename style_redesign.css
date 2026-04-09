@@ -618,3 +618,49 @@ textarea {
     align-items: flex-start;
   }
 }
+/* FIX ONLY: секция с формой */
+.form-showcase-card {
+  grid-template-columns: 0.95fr 1.2fr;
+  align-items: stretch;
+}
+
+.form-showcase-copy,
+.form-showcase-embed {
+  min-width: 0;
+}
+
+.form-showcase-copy p {
+  color: var(--muted) !important;
+  max-width: 420px;
+}
+
+.form-showcase-embed {
+  overflow: hidden;
+}
+
+.yandex-form-frame.large {
+  width: 100%;
+  height: 620px;
+  min-height: 620px;
+  display: block;
+  border: 0;
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  .form-showcase-card {
+    grid-template-columns: 1fr;
+  }
+
+  .yandex-form-frame.large {
+    height: 540px;
+    min-height: 540px;
+  }
+}
+
+@media (max-width: 640px) {
+  .yandex-form-frame.large {
+    height: 500px;
+    min-height: 500px;
+  }
+}

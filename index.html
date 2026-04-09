@@ -44,40 +44,61 @@
   <div id="app">
     <div class="app-shell">
 
-      <!-- Экран 1: Логин -->
-      <section class="screen active" id="login">
-        <div class="hero-card">
-          <div class="brand-mark">LL</div>
-          <span class="eyebrow">Платформа развития команды</span>
-          <h1>LeadLens</h1>
-          <p class="hero-text">
-            Фиксируйте встречи, отслеживайте рост сотрудников и собирайте понятную
-            ретроспективу без перегруженного интерфейса.
-          </p>
+      
+  <section class="screen active" id="login">
+  <div class="hero-card hero-card-with-form">
+    <div class="brand-mark">LL</div>
+    <span class="eyebrow">Платформа развития команды</span>
+    <h1>LeadLens</h1>
+    <p class="hero-text">
+      Фиксируйте встречи, отслеживайте рост сотрудников и собирайте понятную
+      ретроспективу без перегруженного интерфейса.
+    </p>
 
-          <div class="hero-grid">
-            <div class="mini-card">
-              <span class="mini-icon">👥</span>
-              <div>
-                <strong>Команда</strong>
-                <p>единый обзор по людям и фокусам развития</p>
-              </div>
-            </div>
-            <div class="mini-card">
-              <span class="mini-icon">📝</span>
-              <div>
-                <strong>Обратная связь</strong>
-                <p>структурированная фиксация встреч и договорённостей</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="cta-row">
-            <button class="btn btn-primary" onclick="showScreen('team')">Войти как руководитель</button>
-            <button class="btn btn-secondary" onclick="showScreen('employee-view')">Войти как сотрудник</button>
-          </div>
+    <div class="hero-grid">
+      <div class="mini-card">
+        <span class="mini-icon">👥</span>
+        <div>
+          <strong>Команда</strong>
+          <p>единый обзор по людям и фокусам развития</p>
         </div>
-      </section>
+      </div>
+      <div class="mini-card">
+        <span class="mini-icon">📝</span>
+        <div>
+          <strong>Обратная связь</strong>
+          <p>структурированная фиксация встреч и договорённостей</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-row">
+      <button class="btn btn-primary" onclick="showScreen('team')">Войти как руководитель</button>
+      <button class="btn btn-secondary" onclick="showScreen('employee-view')">Войти как сотрудник</button>
+    </div>
+
+    <div class="lead-form-block">
+      <div class="lead-form-intro">
+        <span class="lead-form-badge">Демо / заявка</span>
+        <h3>Оставьте заявку на демо LeadLens</h3>
+        <p>
+          Заполните короткую форму — и мы свяжемся с вами, чтобы показать продукт
+          и обсудить, как его можно внедрить в команду.
+        </p>
+      </div>
+
+      <div class="lead-form-shell">
+        <iframe
+          src="https://forms.yandex.ru/u/69d7f2a584227c1216e80778?iframe=1"
+          frameborder="0"
+          name="ya-form-69d7f2a584227c1216e80778"
+          class="lead-form-iframe"
+          title="Форма заявки LeadLens"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
 
       <!-- Экран 2: Список команды -->
       <section class="screen" id="team">
@@ -422,6 +443,8 @@
 
     </div>
   </div>
+ <script src="https://forms.yandex.ru/_static/embed.js"></script>
   <script src="script_redesign.js"></script>
+      
 </body>
 </html>

@@ -698,14 +698,15 @@ iframe[name="ya-form-69d7f2a584227c1216e80778"] {
 }
 
 @media (max-width: 640px) {
+
   #app {
-    padding: 12px 10px 20px;
+    padding: 12px 14px 20px;
   }
 
   .hero-card,
   .hero-card-with-form {
     padding: 16px;
-    border-radius: 22px;
+    border-radius: 26px;
     min-height: auto;
   }
 
@@ -719,7 +720,6 @@ iframe[name="ya-form-69d7f2a584227c1216e80778"] {
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 18px;
-    max-width: 100%;
   }
 
   .hero-grid {
@@ -734,7 +734,6 @@ iframe[name="ya-form-69d7f2a584227c1216e80778"] {
 
   .cta-row {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 10px;
   }
 
@@ -742,35 +741,17 @@ iframe[name="ya-form-69d7f2a584227c1216e80778"] {
     width: 100%;
   }
 
+  /* --- ВОТ ЭТО ПРО ФОРМУ --- */
+
   .lead-form-block {
-    margin-top: 18px;
-    padding: 10px;
-    border-radius: 18px;
-  }
-
-  .lead-form-intro {
-    margin-bottom: 8px;
-  }
-
-  .lead-form-badge {
-    font-size: 10px;
-    padding: 6px 10px;
-    margin-bottom: 8px;
-  }
-
-  .lead-form-intro h3 {
-    font-size: 16px;
-    line-height: 1.15;
-    margin-bottom: 6px;
-  }
-
-  .lead-form-intro p {
-    font-size: 12px;
-    line-height: 1.4;
+    margin: 18px auto 0;
+    padding: 12px;
+    border-radius: 24px;
+    max-width: 360px;
   }
 
   .lead-form-shell {
-    border-radius: 18px;
+    border-radius: 22px;
     overflow: hidden;
   }
 
@@ -778,11 +759,8 @@ iframe[name="ya-form-69d7f2a584227c1216e80778"] {
   iframe[name="ya-form-69d7f2a584227c1216e80778"] {
     width: 100% !important;
     height: 520px !important;
-    min-height: 520px !important;
-    max-height: 520px !important;
-    border-radius: 18px !important;
+    border-radius: 22px !important;
     display: block;
   }
+
 }
-
-
